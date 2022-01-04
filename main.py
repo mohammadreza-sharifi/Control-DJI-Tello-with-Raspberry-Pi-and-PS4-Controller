@@ -38,11 +38,11 @@ class MyController(Controller):
     def on_L1_press(self):
         drone.down(40)
 		
-	def on_square_press(self):
-		drone.cw(90)
+    def on_square_press(self):
+	drone.cw(90)
 		
-	def on_triangle_press(self):
-		drone.ccw(90)
+    def on_triangle_press(self):
+	drone.ccw(90)
 		
 controller = MyController(interface="/dev/input/js0", connecting_using_ds4drv=False)
 # you can start listening before controller is paired, as long as you pair it within the timeout window
