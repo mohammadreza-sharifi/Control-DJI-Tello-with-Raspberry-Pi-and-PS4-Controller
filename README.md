@@ -1,4 +1,6 @@
 # Control-DJI-Tello-with-Raspberry-Pi-and-PS4-Controller
+## Demo of this project
+see demo in my Reddit profile: https://www.reddit.com/r/raspberry_pi/comments/rvpqa9/control_dji_tello_drone_with_ps4_controller_and/?utm_source=share&utm_medium=web2x&context=3
 ## install easytello library on Raspberry Pi
 ~~~
 pip3 install easytello
